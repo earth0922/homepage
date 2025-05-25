@@ -5,4 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/self_produce/',  // リポジトリ名を指定
+  build: {
+    outDir: 'dist',
+    sourcemap: true
+  }
 })
