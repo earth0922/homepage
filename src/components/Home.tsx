@@ -23,10 +23,11 @@ export default function Home() {
                         className="w-full rounded-lg"
                     />  
                     </span>
-                    <div className="w-full md:max-w-1/2 mt-2">
+                    <div className="w-full md:max-w-1/2">
                         <div>
                             <ul className="space-y-2 md:space-y-4">
                                 <li className="text-md md:text-2xl font-bold">Web 開発エンジニア</li>
+                                <li className="text-sm md:text-lg">・エンジニア歴４年目</li>
                                 <li className="text-sm md:text-lg">・娘大好き一児のパパ</li>
                                 <li className="text-sm md:text-lg">・趣味はコーディング</li>
                                 <li className="text-sm md:text-lg">・Web 開発/アプリケーション設計が好き</li>                                    
