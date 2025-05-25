@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* スクロールバーを非表示にする */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Firefox 対応 */
+* {
+    scrollbar-width: none;
+}
