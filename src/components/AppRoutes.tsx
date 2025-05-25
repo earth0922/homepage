@@ -1,5 +1,5 @@
 import { useEffect, Suspense, lazy } from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 
 const Home = lazy(() => import('./Home'));
 const About = lazy(() => import('./About'));
@@ -14,8 +14,11 @@ export function AppRoutes() {
     <>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/homepage" element={<Home />} />
           <Route path="/contact" element={<About />} />
+
+          <Route path="/" element={<Navigate to="/homepage" replace />} />
+          <Route path="*" element={<Navigate to="/homepage" replace />} />
         </Routes>
       </Suspense>
     </>
