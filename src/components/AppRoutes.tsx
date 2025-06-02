@@ -14,11 +14,11 @@ export function AppRoutes() {
     <>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="/homepage" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/contact" element={<About />} />
 
-          <Route path="/" element={<Navigate to="/homepage" replace />} />
-          <Route path="*" element={<Navigate to="/homepage" replace />} />
+          <Route path="/" element={<Navigate to="/home" replace />} />
+          <Route path="*" element={<Navigate to="/home" replace />} />
         </Routes>
       </Suspense>
     </>

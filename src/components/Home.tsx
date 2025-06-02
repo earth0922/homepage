@@ -9,7 +9,7 @@ export default function Home() {
             <div>
                 <div className="w-full"> 
                     <img
-                        src="/homepage/assets/program.jpg"
+                        src="/home/assets/program.jpg"
                         alt="Home Background"
                         className="w-full rounded-lg shadow-lg"
                     />
@@ -18,7 +18,7 @@ export default function Home() {
                 <span className="flex mt-12 justify-between gap-4">
                     <span className="max-w-[40%]">
                         <img
-                        src="/homepage/assets/human.png"
+                        src="/home/assets/human.png"
                         alt="Human"
                         className="w-full rounded-lg"
                     />  

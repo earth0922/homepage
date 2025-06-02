@@ -13,7 +13,7 @@ export const Header = () => {
                         </div>
                         <nav className="flex">
                             <button type="button" className="px-4 py-2 border-none text-xl rounded hover:bg-blue-200"
-                                onClick={() => navigate("/homepage")}>
+                                onClick={() => navigate("/home")}>
                                 Home
                             </button>
                             <button type="button" className="px-4 py-2 border-none text-xl rounded hover:bg-red-200"

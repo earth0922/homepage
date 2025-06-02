@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 const rootElement = document.getElementById('root');
 if (rootElement) {
   createRoot(rootElement).render(
-    <BrowserRouter basename="/homepage">
+    <BrowserRouter basename="/home">
       <AppRoutes />
     </BrowserRouter>
   );
