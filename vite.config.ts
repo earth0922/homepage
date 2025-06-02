@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/home/',  // リポジトリ名を指定
+  base: '/homepage/',  // リポジトリ名を指定
   build: {
     outDir: 'dist',
     sourcemap: true

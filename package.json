@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://earth0922.github.io/self_produce/",
+  "homepage": "https://earth0922.github.io/homepage/",
   "scripts": {
     "dev": "vite",
     "start": "vite dev",
