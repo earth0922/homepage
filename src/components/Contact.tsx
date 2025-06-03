@@ -25,12 +25,12 @@ export default function Contact() {
           <form
             action="https://formspree.io/f/mnnvqrgg"
             method="POST"
-            className="space-y-6"
+            className="flex flex-col gap-6"
           >
-            <div className="space-y-2">
+            <div className="flex flex-col gap-3">
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-gray-700"
+                className="text-sm font-medium text-gray-700"
               >
                 お名前
               </label>
@@ -44,10 +44,10 @@ export default function Contact() {
               />
             </div>
 
-            <div className="space-y-2">
+            <div className="flex flex-col gap-3">
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
+                className="text-sm font-medium text-gray-700"
               >
                 メールアドレス
               </label>
@@ -61,10 +61,10 @@ export default function Contact() {
               />
             </div>
 
-            <div className="space-y-2">
+            <div className="flex flex-col gap-3">
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700"
+                className="text-sm font-medium text-gray-700"
               >
                 メッセージ
               </label>
