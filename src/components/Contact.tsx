@@ -22,11 +22,7 @@ export default function Contact() {
           お問い合わせフォーム
         </h1>
         <div className="bg-white shadow-lg rounded-xl p-6 md:p-8">
-          <form
-            action="https://formspree.io/f/mnnvqrgg"
-            method="POST"
-            className="flex flex-col gap-6"
-          >
+          <form className="flex flex-col gap-6">
             <div className="flex flex-col gap-3">
               <label
                 htmlFor="name"
