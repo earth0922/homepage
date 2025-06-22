@@ -69,6 +69,17 @@ export const Header = () => {
                                     >
                                         Contact
                                     </button>
+                                    <a
+                                        href="https://earth0922.github.io/otegaru-blog/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="px-4 py-2 text-xl text-left rounded hover:bg-green-200"
+                                        onClick={() =>
+                                            setIsHamburgerMenuOpen(false)
+                                        }
+                                    >
+                                        Blog
+                                    </a>
                                 </nav>
                             </div>
                         </div>
